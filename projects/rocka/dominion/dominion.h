@@ -127,5 +127,11 @@ int scoreFor(int player, struct gameState *state);
 int getWinners(int players[MAX_PLAYERS], struct gameState *state);
 /* Set array position of each player who won (remember ties!) to
    1, others to 0 */
+int adventurerCard( int drawntreasure, struct gameState *state, int currentPlayer);
+int smithyCard(struct gameState *state, int currentPlayer, int handPos);
+int feastCard(int choice1, struct gameState *state, int currentPlayer);
+int mineCard(int choice1, int choice2, struct gameState *state, int handPos, int currentPlayer);
+int numHandCards(struct gameState *state);
+int getCost(int cardNumber);
 
 #endif
