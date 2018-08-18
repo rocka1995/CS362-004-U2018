@@ -96,6 +96,12 @@ int shuffle(int player, struct gameState *state);
 int playCard(int handPos, int choice1, int choice2, int choice3,
 	     struct gameState *state);
 /* Play card with index handPos from current player's hand */
+int adventurerCard( int drawntreasure, struct gameState *state, int currentPlayer);
+int smithyCard(struct gameState *state, int currentPlayer, int handPos);
+int feastCard(int choice1, struct gameState *state, int currentPlayer);
+int mineCard(int choice1, int choice2, struct gameState *state, int handPos, int currentPlayer);
+int numHandCards(struct gameState *state);
+int getCost(int cardNumber);
 
 int buyCard(int supplyPos, struct gameState *state);
 /* Buy card with supply index supplyPos */
