@@ -1,14 +1,15 @@
 //adventurer card
 #include "dominion.h"
 #include "dominion_helpers.h"
+#include "interface.h"
+#include "rngs.h"
 #include <string.h>
 #include <stdio.h>
 #include <time.h>
 #include <assert.h>
-#include "rngs.h"
 #include <stdlib.h>
-#include "interface.h"
 #include <stdbool.h>
+
 
 #define TESTCARD "Adventurer"
 
