@@ -718,7 +718,7 @@ int getCost(int cardNumber)
         return 4;
       case treasure_map:
         return 4;
-    }
+    } 
 	
   return -1;
 }
